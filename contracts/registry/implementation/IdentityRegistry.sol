@@ -62,8 +62,8 @@
 
 pragma solidity 0.8.20;
 
-import "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol";
-import "@onchain-id/solidity/contracts/interface/IIdentity.sol";
+import "@CamilleZxt/onchainid/contracts/interface/IClaimIssuer.sol";
+import "@CamilleZxt/onchainid/contracts/interface/IIdentity.sol";
 
 import "../interface/IClaimTopicsRegistry.sol";
 import "../interface/ITrustedIssuersRegistry.sol";
