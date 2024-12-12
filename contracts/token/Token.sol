@@ -64,7 +64,7 @@
 pragma solidity 0.8.20;
 
 import "./IToken.sol";
-import "https://xtcamille/onchainid/contracts/interface/IIdentity.sol";
+import "https://github.com/xtcamille/onchainid/contracts/interface/IIdentity.sol";
 import "./TokenStorage.sol";
 import "../roles/AgentRoleUpgradeable.sol";
 

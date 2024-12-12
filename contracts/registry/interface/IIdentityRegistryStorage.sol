@@ -62,7 +62,7 @@
 
 pragma solidity 0.8.20;
 
-import "https://xtcamille/onchainid/contracts/interface/IIdentity.sol";
+import "https://github.com/xtcamille/onchainid/contracts/interface/IIdentity.sol";
 
 interface IIdentityRegistryStorage {
 

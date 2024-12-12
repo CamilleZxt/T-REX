@@ -66,8 +66,8 @@ import "./ITrustedIssuersRegistry.sol";
 import "./IClaimTopicsRegistry.sol";
 import "./IIdentityRegistryStorage.sol";
 
-import "https://xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
-import "https://xtcamille/onchainid/contracts/interface/IIdentity.sol";
+import "https://github.com/xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
+import "https://github.com/xtcamille/onchainid/contracts/interface/IIdentity.sol";
 
 interface IIdentityRegistry {
     /**

@@ -63,7 +63,7 @@
 
 pragma solidity 0.8.20;
 
-import "https://xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
+import "https://github.com/xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "../interface/ITrustedIssuersRegistry.sol";
 import "../storage/TIRStorage.sol";

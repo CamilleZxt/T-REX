@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { ethers } from 'hardhat';
 
 import { Event } from 'ethers';
-import OnchainID from 'https://xtcamille/onchainid';
+import OnchainID from 'https://github.com/xtcamille/onchainid';
 import { deployFullSuiteFixture } from './fixtures/deploy-full-suite.fixture';
 
 describe('TREXFactory', () => {

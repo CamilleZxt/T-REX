@@ -2,7 +2,7 @@
  *Submitted for verification at polygonscan.com on 2022-11-10
 */
 
-// File: https://xtcamille/onchainid/contracts/interface/IERC734Legacy.sol
+// File: https://github.com/xtcamille/onchainid/contracts/interface/IERC734Legacy.sol
 
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity 0.8.20;
@@ -118,7 +118,7 @@ interface IERC734Legacy {
     function removeKey(bytes32 _key, uint256 _purpose) external returns (bool success);
 }
 
-// File: https://xtcamille/onchainid/contracts/interface/IERC735Legacy.sol
+// File: https://github.com/xtcamille/onchainid/contracts/interface/IERC735Legacy.sol
 
 /**
  * @dev interface of the ERC735 (Claim Holder) standard as defined in the EIP.
@@ -191,13 +191,13 @@ interface IERC735Legacy {
     function removeClaim(bytes32 _claimId) external returns (bool success);
 }
 
-// File: https://xtcamille/onchainid/contracts/interface/LegacyIIdentity.sol
+// File: https://github.com/xtcamille/onchainid/contracts/interface/LegacyIIdentity.sol
 
 
 
 interface LegacyIIdentity is IERC734Legacy, IERC735Legacy {}
 
-// File: https://xtcamille/onchainid/contracts/interface/IClaimIssuerLegacy.sol
+// File: https://github.com/xtcamille/onchainid/contracts/interface/IClaimIssuerLegacy.sol
 
 
 
