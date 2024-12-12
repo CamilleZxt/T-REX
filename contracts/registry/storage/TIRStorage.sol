@@ -63,7 +63,7 @@
 
 pragma solidity 0.8.20;
 
-import "@CamilleZxt/onchainid/contracts/interface/IClaimIssuer.sol";
+import "https://xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
 
 contract TIRStorage {
     /// @dev Array containing all TrustedIssuers identity contract address.

@@ -70,8 +70,8 @@ import "../../../registry/interface/IClaimTopicsRegistry.sol";
 import "../../../compliance/legacy/ICompliance.sol";
 import "./OwnerRoles.sol";
 import "../../AgentRole.sol";
-import "@CamilleZxt/onchainid/contracts/interface/IIdentity.sol";
-import "@CamilleZxt/onchainid/contracts/interface/IClaimIssuer.sol";
+import "https://xtcamille/onchainid/contracts/interface/IIdentity.sol";
+import "https://xtcamille/onchainid/contracts/interface/IClaimIssuer.sol";
 
 contract OwnerManager is OwnerRoles {
     /// @dev the token that is managed by this OwnerManager Contract

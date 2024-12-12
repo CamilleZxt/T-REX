@@ -1,6 +1,6 @@
 import { BigNumber, Contract, Signer } from 'ethers';
 import { ethers } from 'hardhat';
-import OnchainID from '@CamilleZxt/onchainid';
+import OnchainID from 'https://xtcamille/onchainid';
 import { loadFixture } from '@nomicfoundation/hardhat-network-helpers';
 
 export async function deployIdentityProxy(implementationAuthority: Contract['address'], managementKey: string, signer: Signer) {
